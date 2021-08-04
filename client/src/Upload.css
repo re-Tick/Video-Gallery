@@ -1,0 +1,23 @@
+.upload-container{
+    width: 1000px;
+    height: 300px;
+    background-color: white;
+    margin: auto;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 11px;
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.upload-container input{
+    align-items: center;
+
+}
+
+.vertical-upload-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
